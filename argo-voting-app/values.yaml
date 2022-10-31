@@ -1,0 +1,19 @@
+postgresql:
+  enabled: true
+  postgresUsername: postgres
+  postgresqlPassword: postgres
+redis:
+  enabled: true
+  usePassword: false
+result:
+  image:
+    repository: docker.io/dustinvanbuskirk/result
+    tag: 99f5e1c
+vote:
+  image:
+    repository: docker.io/dustinvanbuskirk/vote
+    tag: a9c5056
+worker:
+  image:
+    repository: docker.io/dustinvanbuskirk/worker
+    tag: d222228
